@@ -4,3 +4,31 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.navbar-nav li a {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 0;
+}
+
+.myName {
+    line-height: 60px;
+    padding-top: 0;
+    /*use em instead of px because it allows zoom to work on browsers*/
+    font-size: 2em;
+    font-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    /*text-align: center; */
+    font-size: 1.5em;
+}
+
