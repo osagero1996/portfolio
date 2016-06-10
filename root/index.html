@@ -14,7 +14,7 @@
 
     <body>
         <div class = "container-fluid">
-                        <nav class="navbar navbar-inverse" role="navigation">
+                        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
               <div class="container-fluid">
 
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -30,12 +30,12 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav ">
-                    <li ><a href="#">About <span class="sr-only">(current)</span></a></li>
-                    <li ><a href="#">Resume<span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
+                  <ul class="nav navbar-nav pull-right">
+                    <li ><a href="#">ABOUT <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="#">RESUME<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">BLOG</a></li>
                   </ul>
 
                 </div><!-- /.navbar-collapse -->
@@ -43,17 +43,111 @@
             </nav>
         </div><!--End of the parent container-fluid-->
 
+    <div class ="container-fluid background">
         <div class ="container">
-            <div class="row">
+            <div class="row" id = "begin">
                 <h1 class ="text-uppercase">About Me</h1>
-                <h2> "Education is the most powerful weapon which you can use to change the world."</h2>
-                <h2>- Nelson Mandela</h2>
+                <h2 > "Lets go invent tomorrow instead of worrying about what happened yesterday."</h2>
+                <h2 id="nelson">- Steve Jobs</h2>
 
                 <p>
-                    Hello World! I am a sophomore computer science major at USC. Officially as a computer science major I write programs using coding languages such as C++ and Java. To me computer science is more than just coding. What I actually get to do is build, create and engineer solutions to problems while pioneering a cultural change in the technological industry. I am excited that the software that I build today is what people will use tomorrow. It is extremely important to me to have a positive impact in my community and to be an inspiration to children in my community.
+                    <span>Hello World!</span> I am a sophomore computer science major at USC. Officially as a computer science major I write programs using coding languages such as C++ and Java. To me computer science is more than just coding. What I actually get to do is build, create and engineer solutions to problems while pioneering a cultural change in the technological industry. I am excited that the software that I build today is what people will use tomorrow. It is extremely important to me to have a positive impact in my community and to be an inspiration to children in my community.
                 </p>
             </div>
         </div>
+    </div>
+
+    <div class="containter-fluid background1">
+        <div class="container">
+            <h1 class="text-uppercase websiteTitle">Resume</h1>
+            <div class = "row">
+                <div class = "col-md-12">
+                    Link to full resume here
+                </div>
+            </div>
+            <div class ="row">
+                <div class="col-md-4">
+                    <h3 class ="text-center">Skills</h3>
+                    <u1 class = "text-center">
+                        <li>C++ and Java</li>
+                        <li>HTML and CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap and Angular JS</li>
+                    </u1>
+
+                </div>
+                <div class="col-md-4">
+                    <h3 class ="text-center">Coursework</h3>
+                     <u1 class = "text-center">
+                        <li>Intro to Computing</li>
+                        <li>Intro to Programming</li>
+                        <li>Data Structures and OOP </li>
+                        <li>Discrete Mathematics</li>
+                    </u1>
+                </div>
+                <div class="col-md-4">
+                    <h3 class ="text-center">Activities</h3>
+                    <u1 class = "text-center">
+                        <li>NSBE </li>
+                        <li>ACM</li>
+                        <li>Intramural Basketball</li>
+                        <li>Trust Talks</li>
+                        <li>Code 4 Kids</li>
+                    </u1>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class ="container-fluid background2">
+        <div class = "container">
+            <h1 class="text-uppercase websiteTitle">Projects</h1>
+            <div class="row" id = "projectPictures">
+
+                <div class="col-md-4 dividers">
+                    <h3>Project Title</h3>
+                    <img class="img-responsive" src="http://placehold.it/350x200">
+                    <h4 class = "text-center">Link goes here</h4>
+                </div>
+
+                <div class="col-md-4 dividers">
+                    <h3>Project Title</h3>
+                    <img class="img-responsive" src="http://placehold.it/350x200">
+                <h4 class = "text-center">Link goes here</h4>
+                </div>
+
+                <div class="col-md-4 dividers">
+                    <h3>Project Title</h3>
+                    <img class="img-responsive" src="http://placehold.it/350x200">
+                    <h4 class = "text-center">Link goes here</h4>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class ="container-fluid background1">
+        <div class="container">
+            <h1 class="text-uppercase websiteTitle">Contact</h1>
+            <div class="row projectPictures text-center">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/mail.png">
+                    Email
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/LinkedIn.png">
+                    LinkedIn
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/Github.png">
+                    Github
+                </div>
+            </div>
+        </div>
+    </div>
 
     </body>
 </html>
