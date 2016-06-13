@@ -27,9 +27,9 @@
     </style>
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <div class = "container-fluid navbarPadding">
-                        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
               <div class="container-fluid">
 
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -46,10 +46,10 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbarColor" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav pull-right">
-                    <li ><a href="#" class="navbarColor">ABOUT <span class="sr-only">(current)</span></a></li>
-                    <li ><a href="#">RESUME</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li ><a href="#about" class="navbarColor">ABOUT <span class="sr-only">(current)</span></a></li>
+                    <li ><a href="#resume">RESUME</a></li>
+                    <li><a href="#project">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#">BLOG</a></li>
                   </ul>
 
@@ -58,10 +58,14 @@
             </nav>
         </div><!--End of the parent container-fluid-->
 
+
+
     <div class ="container-fluid background">
         <div class ="container">
+            <section>
             <div class="row" id = "begin">
-                <h1 class ="text-uppercase">About Me</h1>
+                <a class ="anchor" id="about"></a>
+                <h1 class ="text-uppercase websiteTitle">About Me</h1>
                 <h2 > "Lets go invent tomorrow instead of worrying about what happened yesterday."</h2>
                 <h2 id="nelson">- Steve Jobs</h2>
 
@@ -69,15 +73,17 @@
                     <span>Hello World!</span> I am a sophomore computer science major at USC. Officially as a computer science major I write programs using coding languages such as C++ and Java. To me computer science is more than just coding. What I actually get to do is build, create and engineer solutions to problems while pioneering a cultural change in the technological industry. I am excited that the software that I build today is what people will use tomorrow. It is extremely important to me to have a positive impact in my community and to be an inspiration to children in my community.
                 </p>
             </div>
+            </section>
         </div>
     </div>
 
-    <div class="containter-fluid background1">
-        <div class="container">
-            <h1 class="text-uppercase websiteTitle">Resume</h1>
+    <div class="containter-fluid background1"  >
+        <div class="container space" >
+            <a class="anchor" id ="resume"></a>
+            <h1 class="text-uppercase websiteTitle target" >Resume</h1>
             <div class = "row">
                 <div class = "col-md-12">
-                    Link to full resume here
+                     <a href= "Resume.pdf" target="_blank">Link to full resume here </a>
                 </div>
             </div>
             <div class ="row text-center">
@@ -126,28 +132,78 @@
     </div>
 
 
-    <div class ="container-fluid background2">
-        <div class = "container">
+    <div class ="container-fluid background" >
+        <div class = "container space">
+            <a class="anchor" id ="project"></a>
             <h1 class="text-uppercase websiteTitle">Projects</h1>
             <div class="row" id = "projectPictures">
 
                 <div class="col-md-4 dividers">
-                    <h3>Project Title</h3>
-                    <img class="img-responsive" src="http://placehold.it/350x200" data-toggle="modal" data-target="#project1">
-                    <h4 class = "text-center">Link goes here</h4>
+
+                    <!-- Code for the Square card -->
+                <style>
+                .demo-card-square.mdl-card {
+                  width: 320px;
+                  height: 320px;
+                }
+                .demo-card-square > .mdl-card__title {
+                  color: #fff;
+                  background:
+                    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+                }
+                </style>
+
+                <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">Update</h2>
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenan convallis.
+                  </div>
+                  <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#project1">
+                      View Updates
+                    </a>
+                  </div>
+              </div>
+            </div>
+
+                <div class="col-md-4 dividers">
+                    <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">Update</h2>
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenan convallis.
+                  </div>
+                  <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#project2">
+                      View Updates
+                    </a>
+                  </div>
+                </div>
                 </div>
 
                 <div class="col-md-4 dividers">
-                    <h3>Project Title</h3>
-                    <img class="img-responsive" src="http://placehold.it/350x200" data-toggle="modal" data-target="#project2">
-                <h4 class = "text-center">Link goes here</h4>
+                    <div class="col-md-4 dividers">
+                    <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">Update</h2>
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenan convallis.
+                  </div>
+                  <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-toggle="modal" data-target="#project2">
+                      View Updates
+                    </a>
+                  </div>
                 </div>
-
-                <div class="col-md-4 dividers">
-                    <h3>Project Title</h3>
-                    <img class="img-responsive" src="http://placehold.it/350x200" data-toggle="modal" data-target="#project3">
-                    <h4 class = "text-center">Link goes here</h4>
                 </div>
+            </div>
 
         <!-- Modal -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -215,6 +271,7 @@
 
     <div class ="container-fluid background1">
         <div class="container">
+            <a class ="anchor" id="contact"></a>
             <h1 class="text-uppercase websiteTitle">Contact</h1>
             <div class="row projectPictures text-center">
                 <div class="col-md-4">
@@ -241,7 +298,7 @@
         </div>
     </div>
 
-<!-- Modal -->
+<!-- Modal for Hire Me Button -->
     <div class="modal fade" id="hireMe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -258,6 +315,12 @@
         </div>
       </div>
     </div>
+
+        <script>
+        //     var offset = $('h1.resume:target').offset();
+        //     var scrollto = offset.top - 60; // minus fixed header height
+        //     $('html, body').animate({scrollTop:scrollto}, 0);
+        // </script>
 
     <a target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast" data-toggle="modal" data-target="#hireMe">Hire Me</a>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
