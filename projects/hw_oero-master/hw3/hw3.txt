@@ -1,0 +1,18 @@
+Problem 2
+
+Part A
+
+If the worst function runs theta(n^2), then the overall worst case for the function is n^2
+
+Part B
+
+n log n
+
+Part C
+
+n log n
+
+Part D
+
+The amortized runtime for this part of code is n^2.
+

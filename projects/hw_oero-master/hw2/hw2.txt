@@ -1,0 +1,85 @@
+Author: Osagie Ero
+
+Problem 1
+
+Part A
+
+The status of the file is unmodified
+
+Part B
+
+README.md is modified and fun_problem.txt is untracked
+
+Part C
+
+Both README.md and fun_problem is staged and ready to be committed
+
+Part D
+
+Both files are modified
+
+Part E
+
+README and checkout are both staged
+
+Fun problem is empty because the checkout command changes the file to the last commit
+
+Part F
+
+Modified
+
+
+Problem 3
+
+Part A
+
+O(n log n)
+
+The inner loop runs log n and outer loop runs n
+
+Part B
+
+O(n-1 * (n/2))
+
+Part C
+
+O(n^2)
+
+Part D
+
+Theta(n-1) + Theta(2n) + Theta(3n - 1/n)
+
+Problem 4
+
+1. An array of strings with 0 = the first president. The array would allow people to put 
+the original number of president when searching the array and the array 
+would take in (input - 1) to compensate.
+
+Or you can use a list of strings and use get to access a president at that value.
+
+2. Use a map
+the key is zipcode
+value associated with key is the population
+
+Using a map will allow for a quick and speedy access to whatever zip code is needed
+
+3. A set would be the best data type to use. You can add students that did they tricky problem and remove students if you ended up making a mistake. You can use a boolean to search if a student is in the set
+
+4. A map would be the best data type to use in this situation. The key would be the assignment and ID number and 
+the value would be the numerical value for that assignment for that student.
+
+Problem 5.
+
+Problem 5 Reverses the linked list. Function B iterates to the end of the list and sets the pointer to what was
+passed at in1.
+
+
+
+
+
+
+
+
+
+
+

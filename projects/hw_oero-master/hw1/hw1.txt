@@ -1,0 +1,82 @@
+Author: Osagie Ero
+Class: CS 104
+Professor: Michael Shindler
+
+Problem 1
+
+Part A
+
+Which one of the following are acceptable behaviors in solving homeworks/projects?
+
+Asking the course staff for help and looking up information relevant to the course online.
+
+Part B
+
+EMACS, Eclipse, Sublime, and Microsoft Visual Studio
+
+Part C
+
+What is the late submission policy?
+
+Each student has 3 late days of which only 1 can be used per HW
+
+Part D
+
+After making a late submission by pushing your code to Github you should..
+
+Complete the online late submission form
+
+
+
+Problem 2
+
+Part A
+
+Which of the following git user interfaces are accepted and supported in this course?
+
+Git Bash or Terminal
+
+Part B
+
+Provide the appropriate git command to perform the following operations:
+
+1. Stage an untracked file to be committed.
+
+git add hw1q2b.cpp
+
+2. Display the detials of the last three commits in the repository
+
+git log
+
+Part C
+
+Git will prmompt you for a message for each commit using the preferred editor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
