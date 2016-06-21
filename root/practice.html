@@ -3,16 +3,16 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="A collection of Osagie's projects and thoughts">
         <meta name="robots" content ="index,follow">
-        <title>Osagie's Page</title>
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"> -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Osagie's New Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/temp.css">
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
         <script src="https://use.fontawesome.com/d5f3a92682.js"></script>
 
@@ -33,40 +33,35 @@
 
     <!-- data-spy & data-targer allows the active link to change when scrolling -->
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
-        <div class = "container-fluid navbarPadding">
-                        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-              <div class="container-fluid">
-
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand text-uppercase myName" href="#">Osagie Ero</a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbarColor" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav pull-right">
-                    <li ><a href="#about" class="navbarColor">ABOUT <span class="sr-only">(current)</span></a></li>
-                    <li ><a href="#resume">RESUME</a></li>
-                    <li><a href="#project">PROJECTS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#blog">BLOG</a></li>
-                  </ul>
-
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
-            </nav>
+        <div class = "container-fluid">
+                       <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+                        <div class="container-fluid">
+                            <a class="navbar-brand myName" href="#">OSAGIE ERO</a>
+                            <ul class="nav navbar-nav pull-right">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#resume">RESUME</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#project">PROJECTS</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#contact">CONTACT</a>
+                              </li>
+                              <li class ="nav-item">
+                                <a class ="nav-link" href="#" data-toggle="modal" data-target="#blog">BLOG</a>
+                              </li>
+                            </ul>
+                          </div>
+                          </nav>
         </div><!--End of the parent container-fluid-->
 
 
-        <div class = "container-fluid" >
+        <div class = "container-fluid topSpace" >
             <div class ="row">
-            <img class = "img-responsive" src="profile6.jpg" id="mainHeaderWrapper">
+            <img class = "img-fluid center-block" src="profile6.jpg" id="mainHeaderWrapper">
             <!-- <h1 class = "websiteTitle">Hello World</h1> -->
         </div>
         </div>
@@ -92,7 +87,7 @@
     </div>
 
     <div class="containter-fluid background1"  >
-        <div class="container space" >
+        <div class="container space centerStuff" >
             <!-- This acts as an anchor which allows the page to jump to the section clicked -->
             <a class="anchor" id ="resume"></a>
             <h1 class="text-uppercase websiteTitle target" >Resume</h1>
@@ -207,7 +202,7 @@
           </div>
           <div class="modal-body text-center">
             <a href="images/debugger.png" target="_blank">
-            <img class="img-responsive moreSpace" src="images/debugger.png">
+            <img class="img-fluid moreSpace center-block" src="images/debugger.png">
           </a>
 
             <p>Using a GUI builder called Qt and C++, I was able to develop a debugger that could go line by line
@@ -239,7 +234,7 @@
             <h4 class="modal-title text-center" id="myModalLabel">Team Turbo</h4>
           </div>
           <div class="modal-body text-center">
-            <img class="img-responsive moreSpace center" src="images/turbo.png">
+            <img class="img-fluid moreSpace center-block" src="images/turbo.png">
             <p>
             My senior capstone project from when I attended my high school, the California Academy of Math and Science, required us to innovate any aspect of aeronauticul industry. Using the fundamental principles of engineering and design, we were able to build a prototype of an improved seatbelt. We were required to perform in-depth market researh and pitch our idea to a panel of engineers and business executives.
           </p>
@@ -280,7 +275,7 @@
             <h4 class="modal-title text-center" id="myModalLabel">Blog Coming Soon!</h4>
           </div>
           <div class="modal-body text-center">
-            <img class="img-responsive moreSpace" src="images/blog1.jpeg">
+            <img class="img-fluid moreSpace" src="images/blog1.jpeg">
               A collection of my thoughts ranging from technology to social issues coming soon!
           </div>
           <div class="modal-footer">
@@ -303,7 +298,7 @@
         <div class="container">
             <a class ="anchor" id="contact"></a>
             <h1 class="text-uppercase websiteTitle">Contact</h1>
-            <div class="row projectPictures text-center">
+            <div class="row projectPictures centerStuff">
                 <div class="col-md-4">
                     <a href="mailto:oero@usc.edu">
                     <i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i>
@@ -336,7 +331,7 @@
             <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive center" src="images/Github.png">
+            <img class="img-fluid center-block" src="images/Github.png">
             This was my first project in this class. I learned a lot about HTML and CSS.
           </div>
           <div class="modal-footer">
@@ -349,8 +344,8 @@
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
 
     </body>
