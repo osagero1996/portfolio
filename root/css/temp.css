@@ -13,16 +13,19 @@ body {
     /*font-family: 'Lato', sans-serif;*/
     color: #727272;
     font-weight: 300;
-
-
-
 }
 
-/*To increase the navbar size*/
-/*.navbar-nav li a {
-    line-height: 60px;
-    height: 60px;
-    padding-top: 0;
+
+li a.nav-link:focus{
+    color: #3F51B5 !important;
+}
+
+li a.nav-link:hover{
+    color: #3F51B5 !important;
+}
+
+/*.nav-link a:hover {
+    color: #FF4081 !important;
 }*/
 
 /*CSS for my name in navbar*/
@@ -74,28 +77,6 @@ h2{
     margin-bottom: 20px;
 }
 
-/*.jumbotronColor{
-    background-color: white;
-    font-family: 'Raleway', sans-serif;
-    background-image: url("../profile.png");
-    background-repeat: no-repeat;
-}
-
-.myPic{
-     background: url("../profile.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-     width: 1300px;
-    height:600px;
-}*/
-
-/*#mainHeaderWrapper img{
-    vertical-align: top;
-    width: 100%; /* max
-    width
-    opacity: 0;  make it transparent
-}*/
 .space{
     margin-bottom: 60px;
 
@@ -116,18 +97,13 @@ h2{
   margin-right: auto;
 }*/
 
-/*.mdl-card__media > img {
-  max-width: 100%;
-}
-*/
-
 .centerStuff{
     text-align: center;
 }
 
-.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+/*.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
   color:#FF4081 !important;
-}
+}*/
 
 p.lol{
     /*text-align: center; */
@@ -141,12 +117,12 @@ p.lol{
 }
 
 /*Changes the hover color for the navbar to pink*/
-/*.navbar .nav > li > a:hover{
+/*.navbar .nav > ul > li > a:hover{
     color:#FF4081 !important ;
-}
+}*/
 
-changes text of navbar to white
-.navbar .nav > li > a {
+/*changes text of navbar to white*/
+/*.navbar .nav > li > a {
     color: white;
 
 }*/
@@ -156,20 +132,13 @@ font-size: 1em;
 text-align: center;
 }
 
-/*changes text of header to white*/
-/*.navbar .navbar-header > a {
-    color:white;
-}*/
 
 .fontIcon{
     font-size: 100px;
     color:#3F51B5 ;
 }
 
-/*.jumbotron > h1{
-    font-family: 'Raleway', sans-serif;
-}
-*/
+
 
 
 /*Allows the page to jump to a certain section when the link is clicked*/
