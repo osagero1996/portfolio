@@ -21,7 +21,7 @@ li a.nav-link:focus{
 }
 
 li a.nav-link:hover{
-    color: #3F51B5 !important;
+    color:  #FF4081 !important;
 }
 
 /*.nav-link a:hover {
@@ -58,6 +58,7 @@ h2{
 
 /*CSS for section headers*/
 .websiteTitle{
+    margin-top: 10px;
     margin-bottom: 10px;
     color:#212121;
     font-family: 'Raleway', sans-serif;
@@ -159,6 +160,12 @@ a.anchor {
     font-weight: 300 !important;
 
 }
+
+/*@media only screen and (max-width: 500px){
+    p{
+        display: none;
+    }
+}*/
 
 
 
