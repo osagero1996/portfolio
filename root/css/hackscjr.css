@@ -15,43 +15,39 @@ body {
     font-weight: 300;
 }
 
-.hoverButton{
-    position:absolute;
-    bottom:50px;
-    margin: 0px 0 0 -50px;
-    left: 55%;
-
-}
 
 li a.nav-link:focus{
-    color: #FFCC00 !important;
+    color: #3F51B5 !important;
 }
 
 li a.nav-link:hover{
-    color:  #FFCC00 !important;
+    color:  #FF4081 !important;
 }
 
-
-
-
+/*.nav-link a:hover {
+    color: #FF4081 !important;
+}*/
 
 /*CSS for my name in navbar*/
 .myName {
     /*line-height: 60px;*/
-    /*padding-top: 10px;*/
+    padding-top: 10px;
     /*use em instead of px because it allows zoom to work on browsers*/
-    /*font-size: 3em;*/
+    font-size: 3em;
     /*color: white;*/
 }
 
 h1{
-    margin-top: 0px;
     text-align: center;
 
 }
 
 h2{
     text-align: center;
+}
+
+.topSpace{
+    margin-top: 100px;
 }
 
 #nelson{
@@ -66,7 +62,7 @@ h2{
 
 /*CSS for section headers*/
 .websiteTitle{
-    /*margin-top: 10px;*/
+    margin-top: 10px;
     margin-bottom: 10px;
     color:#212121;
     font-family: 'Raleway', sans-serif;
@@ -169,22 +165,11 @@ a.anchor {
 
 }
 
-.btn-circle i.animated {
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
-  -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 1s;
-}
-.btn-circle:hover i.animated {
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-}
+/*@media only screen and (max-width: 500px){
+    p{
+        display: none;
+    }
+}*/
 
 
 
